@@ -10,22 +10,22 @@ This app will take in user inputs and generate a professional README file.
 * [Contributing](##Contributing)
 * [Questions](##Questions)
 
-##Installation
+## Installation
 N/A
 
-##Usage
+## Usage
 Users can use this README to generate a professional README file.
 
-##License
+## License
 MIT
    
-##Contributing
+## Contributing
 undefined
 
-##Tests
+## Tests
 undefined
 
-##Questions
-My GitHub Profile: [Charlotte-ST](https://github.com/Charlotte-ST)
-[Contact me via email](mailto:charlotte.stowe@gmail.com) with any additional questions.
+## Questions
+My GitHub Profile: [Charlotte-St](https://github.com/Charlotte-ST)
+
     
