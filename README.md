@@ -4,11 +4,11 @@
 This app will take in user inputs and generate a professional README file.
 
 ## Table of Contents
-* [Installation](##-Installation)
-* [Usage](##-Usage)
-* [License](##License)
-* [Contributing](##Contributing)
-* [Questions](##Questions)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Questions](#Questions)
 
 ## Installation
 N/A
