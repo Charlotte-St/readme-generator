@@ -1,7 +1,6 @@
 var readmeText;
 const fs = require('fs');
 const inquirer = require('inquirer');
-//var licenseBadge; 
 
 inquirer.prompt([
     {
@@ -66,41 +65,40 @@ inquirer.prompt([
             break;
     }
 
-    readmeText = `
-    # ${answers.title}
+    readmeText = 
+`# ${answers.title}
 
-    ${licenseBadge}
+${licenseBadge}
 
-    ## Description
-    ${answers.description}
+## Description
+${answers.description}
 
-    ## Table of Contents
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributing](#Contributing)
-    * [Questions](#Questions)
+## Table of Contents
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Questions](#Questions)
 
-    ## Installation
-    ${answers.installation}
+## Installation
+${answers.installation}
 
-    ## Usage
-    ${answers.usage}
+## Usage
+${answers.usage}
 
-    ## License
-    This repository is licensed under ${licenseUrl}
+## License
+This repository is licensed under ${licenseUrl}
 
-    ## Contributing
-    ${answers.contributing}
+## Contributing
+${answers.contributing}
 
-    ## Tests
-    ${answers.tests}
+## Tests
+${answers.tests}
 
-    ## Questions
-    My GitHub Profile: [${answers.username}](https://github.com/${answers.username})
-    [Contact me via email](mailto:${answers.email}) with any additional questions.
-    `;
-    console.log(readmeText);
+## Questions
+My GitHub Profile: [${answers.username}](https://github.com/${answers.username})
+
+[Contact me via email](mailto:${answers.email}) with any additional questions.`;
     var stream = fs.createWriteStream('Sample/README.md', {flags: 'a'});
     stream.write(readmeText, function(){});}
     )

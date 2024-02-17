@@ -13,16 +13,21 @@ This app will take in user inputs and generate a professional README file.
 * [Questions](#Questions)
 
 ## Installation
-N/A
+This app requires the installation of Node.js, NPM and the Inquirer module. 
 
 ## Usage
-Users can use this README to generate a professional README file.
+Users can use this README to generate a professional README file. 
 
 [View a video demonstrating usage of the app]()
 
 ## License
 MIT
    
+## Credits
+[Node.js](https://nodejs.org/en)
+[NPM](https://www.npmjs.com/)
+[Inquirer.js](https://www.npmjs.com/package/inquirer)
+
 ## Contributing
 N/A
 
