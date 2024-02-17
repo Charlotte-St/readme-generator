@@ -1,8 +1,9 @@
 var readmeText;
 const fs = require('fs');
 const inquirer = require('inquirer');
+var licenseBadge; 
 
-inquirer.createPromptModule([
+inquirer.prompt([
     {
         type: 'input',
         message: 'What is the project title?',
@@ -43,8 +44,39 @@ inquirer.createPromptModule([
         message: 'What is your email address?',
         name: 'email'
     }
-]).then( answers => 
+]).then( answers => {
     readmeText = `
     #${answers.title}
-    `
-)
+
+    ##Description
+    ${answers.description}
+
+    ##Table of Contents
+    *[Installation](##Installation)
+    *[Usage](##Usage)
+    *[License](##License)
+    *[Contributing](##Contributing)
+    *[Questions](##Questions)
+
+    ##Installation
+    ${answers.installation}
+
+    ##Usage
+    ${answers.usage}
+
+    ##License
+    ${answers.license}
+    ##Contributing
+    ${answers.contributing}
+
+    ##Tests
+    ${answers.tests}
+
+    ##Questions
+    My GitHub Profile: [${answers.username}](https://github.com/${answers.username})
+    [Contact me via email](mailto:${answers.email}) with any additional questions.
+    `;
+    console.log(readmeText);
+    var stream = fs.createWriteStream('Sample/README.md', {flags: 'a'});
+    stream.write(readmeText, function(){});}
+    )
