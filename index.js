@@ -1,7 +1,7 @@
 var readmeText;
 const fs = require('fs');
 const inquirer = require('inquirer');
-var licenseBadge; 
+//var licenseBadge; 
 
 inquirer.prompt([
     {
@@ -45,8 +45,25 @@ inquirer.prompt([
         name: 'email'
     }
 ]).then( answers => {
+    var licenseBadge;
+    switch (answers.license) {
+        case 'Apache 2.0': 
+            licenseBadge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'; break;
+        case 'Creative Commons Attribution 4.0': 
+            licenseBadge = '[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)';
+            break;
+        case 'MIT': 
+            licenseBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+            break;
+        case 'Mozilla Public': 
+            licenseBadge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+            break;
+    }
+
     readmeText = `
     #${answers.title}
+
+    ${licenseBadge}
 
     ##Description
     ${answers.description}

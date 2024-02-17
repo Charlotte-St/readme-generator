@@ -1,5 +1,7 @@
 # Professional README Generator
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 This app will take in user inputs and generate a professional README file.
 
@@ -16,14 +18,16 @@ N/A
 ## Usage
 Users can use this README to generate a professional README file.
 
+[View a video demonstrating usage of the app]()
+
 ## License
 MIT
    
 ## Contributing
-undefined
+N/A
 
 ## Tests
-undefined
+N/A
 
 ## Questions
 My GitHub Profile: [Charlotte-St](https://github.com/Charlotte-ST)
