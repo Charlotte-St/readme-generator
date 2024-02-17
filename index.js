@@ -46,50 +46,57 @@ inquirer.prompt([
     }
 ]).then( answers => {
     var licenseBadge;
+    var licenseUrl;
     switch (answers.license) {
         case 'Apache 2.0': 
-            licenseBadge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'; break;
+            licenseBadge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'; 
+            licenseUrl = '[an Apache 2.0 license](https://opensource.org/licenses/Apache-2.0).'
+            break;
         case 'Creative Commons Attribution 4.0': 
             licenseBadge = '[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)';
+            licenseUrl = '[a Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/).'
             break;
         case 'MIT': 
             licenseBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+            licenseUrl = '[an Mit license](https://opensource.org/licenses/MIT).'
             break;
         case 'Mozilla Public': 
             licenseBadge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+            licenseUrl = '[a Mozilla Public license](https://opensource.org/licenses/MPL-2.0)'
             break;
     }
 
     readmeText = `
-    #${answers.title}
+    # ${answers.title}
 
     ${licenseBadge}
 
-    ##Description
+    ## Description
     ${answers.description}
 
-    ##Table of Contents
-    *[Installation](#Installation)
-    *[Usage](#Usage)
-    *[License](#License)
-    *[Contributing](#Contributing)
-    *[Questions](#Questions)
+    ## Table of Contents
+    * [Installation](#Installation)
+    * [Usage](#Usage)
+    * [License](#License)
+    * [Contributing](#Contributing)
+    * [Questions](#Questions)
 
-    ##Installation
+    ## Installation
     ${answers.installation}
 
-    ##Usage
+    ## Usage
     ${answers.usage}
 
-    ##License
-    ${answers.license}
-    ##Contributing
+    ## License
+    This repository is licensed under ${licenseUrl}
+
+    ## Contributing
     ${answers.contributing}
 
-    ##Tests
+    ## Tests
     ${answers.tests}
 
-    ##Questions
+    ## Questions
     My GitHub Profile: [${answers.username}](https://github.com/${answers.username})
     [Contact me via email](mailto:${answers.email}) with any additional questions.
     `;
