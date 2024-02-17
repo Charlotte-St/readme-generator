@@ -1,15 +1,15 @@
 
-    #Professional README Generator
+    # Professional README Generator
 
-    ##Description
+    ## Description
     This app will take in user inputs and generate a professional README file.
 
-    ##Table of Contents
-    *[Installation](##Installation)
-    *[Usage](##Usage)
-    *[License](##License)
-    *[Contributing](##Contributing)
-    *[Questions](##Questions)
+    ## Table of Contents
+    * [Installation](##Installation)
+    * [Usage](##Usage)
+    * [License](##License)
+    * [Contributing](##Contributing)
+    * [Questions](##Questions)
 
     ##Installation
     N/A
