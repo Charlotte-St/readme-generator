@@ -52,11 +52,11 @@ inquirer.prompt([
     ${answers.description}
 
     ##Table of Contents
-    *[Installation](##Installation)
-    *[Usage](##Usage)
-    *[License](##License)
-    *[Contributing](##Contributing)
-    *[Questions](##Questions)
+    *[Installation](#Installation)
+    *[Usage](#Usage)
+    *[License](#License)
+    *[Contributing](#Contributing)
+    *[Questions](#Questions)
 
     ##Installation
     ${answers.installation}
