@@ -90,10 +90,10 @@ ${answers.usage}
 This repository is licensed under ${licenseUrl}
 
 ## Contributing
-${answers.contributing}
+${answers.contribution}
 
 ## Tests
-${answers.tests}
+${answers.test}
 
 ## Questions
 My GitHub Profile: [${answers.username}](https://github.com/${answers.username})

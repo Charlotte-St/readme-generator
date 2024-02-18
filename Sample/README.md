@@ -1,9 +1,9 @@
-# Test
+# My Cool Project
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-test
+This is my cool project. It does something cool!
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -13,13 +13,13 @@ test
 * [Questions](#Questions)
 
 ## Installation
-Test
+Users must install node, npm, and inquirer in order for this application to work. After installing those, users should intall this app. This app can be called from the command line.
 
 ## Usage
-Test
+This project can be used to do something cool. 
 
 ## License
-This repository is licensed under [a Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+This repository is licensed under [an Mit license](https://opensource.org/licenses/MIT).
 
 ## Contributing
 undefined
@@ -28,4 +28,6 @@ undefined
 undefined
 
 ## Questions
-My GitHub Profile: [Test](https://github.com/Test)
+My GitHub Profile: [Charlotte-St](https://github.com/Charlotte-St)
+
+[Contact me via email](mailto:charlotte.stowe@gmail.com) with any additional questions.
