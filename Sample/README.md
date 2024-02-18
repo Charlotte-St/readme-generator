@@ -3,31 +3,32 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is my cool project. It does something cool!
+This project does a cool thing.
 
 ## Table of Contents
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
+* [Tests](#Tests)
 * [Questions](#Questions)
 
 ## Installation
-Users must install node, npm, and inquirer in order for this application to work. After installing those, users should intall this app. This app can be called from the command line.
+Users should install node.js, npm, and Inquirer before downloading this app. After installing those items, users can download this app and run it from the command line.
 
 ## Usage
-This project can be used to do something cool. 
+This project can be used to do a cool thing by running it on the command line
 
 ## License
 This repository is licensed under [an Mit license](https://opensource.org/licenses/MIT).
 
 ## Contributing
-undefined
+Contact me about contributing
 
 ## Tests
-undefined
+Be careful
 
 ## Questions
 My GitHub Profile: [Charlotte-St](https://github.com/Charlotte-St)
 
-[Contact me via email](mailto:charlotte.stowe@gmail.com) with any additional questions.
+[Contact me via email](mailto:Charlotte.Stowe@gmail.com) with any additional questions.
