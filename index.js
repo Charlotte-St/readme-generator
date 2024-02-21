@@ -64,7 +64,7 @@ inquirer.prompt([
             licenseUrl = '[a Mozilla Public license](https://opensource.org/licenses/MPL-2.0)'
             break;
     }
-
+//README formatting
     readmeText = 
 `# ${answers.title}
 
