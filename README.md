@@ -18,12 +18,11 @@ This app requires the installation of Node.js, NPM, and the Inquirer module. See
 
 To run this professional README Generator, download a copy of this repository, then run the index.js file using Node.js on the command line. 
 
-[Video Walkthrough](https://drive.google.com/file/d/1u753ohnVeBGY_Xhegi2p2CLfYkHStJ1p/view?usp=share_link)
 
 ## Usage
-Users can use this README to generate a professional README file. 
+Users can use this README to generate a professional README file by answering prompts. After users finish answering the prompts, their formatted README file is added to the Sample folder in the local copy of the repository. 
 
-[View a video demonstrating usage of the app]()
+[Video Walkthrough](https://drive.google.com/file/d/1u753ohnVeBGY_Xhegi2p2CLfYkHStJ1p/view?usp=share_link)
 
 ## License
 MIT
